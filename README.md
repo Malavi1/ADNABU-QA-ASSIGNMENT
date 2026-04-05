@@ -26,26 +26,27 @@ Automate a single test scenario:
 
 ## Setup Instructions
 
-1. Clone the repository
-
+### 1. Clone the repository
+```
 git clone <repo-link>
 cd project
+```
+### 2. Install dependencies
 
-2. Install dependencies
+```pip install -r requirements.txt```
 
-pip install -r requirements.txt
-
-3. Setup ChromeDriver
+### 3. Setup ChromeDriver
 Download ChromeDriver matching your Chrome browser version
 Add it to system PATH
 
 
 ## How to Run the Test
+```
 pytest -v
-
+```
 ## Generate basic test report using:
 
-pytest -v > reports/report.txt
+```pytest -v > reports/report.txt```
 
 ## After execution, report will be available at:
 
