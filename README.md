@@ -16,23 +16,11 @@ Automate a single test scenario:
 
 ## Project Structure
 
-ADNABU-QA-ASSIGNMENT/
-│
-├── pages/
-│ ├── base_page.py
-│ ├── home_page.py
-│ ├── search_results_page.py
-│ ├── product_page.py
-│
-├── tests/
-│ └── test_add_to_cart.py
-│
-├── reports/
-│ └── report.txt
-│
-├── driver_setup.py
-├── requirements.txt
-└── README.md
+- **pages/** → Page Object Model files  
+- **tests/** → Test scripts  
+- **reports/** → Execution reports  
+- **driver_setup.py** → WebDriver setup  
+- **requirements.txt** → Dependencies  
 
 
 
