@@ -7,8 +7,7 @@ from pages.password_page import PasswordPage
 
 def test_search_and_add_to_cart():
     driver = get_driver()
-    driver.get("https://adnabu-store-assignment1.myshopify.com/password")  # Replace with real URL
-
+    driver.get("https://adnabu-store-assignment1.myshopify.com/password")  
     try:
         print("Page title:", driver.title)
         password_page = PasswordPage(driver)
